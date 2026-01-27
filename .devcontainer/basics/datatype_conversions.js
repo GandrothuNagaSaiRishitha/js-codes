@@ -15,3 +15,16 @@ console.log(Boolean(isLoggedIn))    //False (empty string==> false)
 let isLog="abc"
 console.log(Boolean(isLog)) //True (non empty string)
 
+let k="1"+2+2
+console.log(k)
+console.log(typeof k)
+
+let m=2+1+"2"
+console.log(m)
+console.log(typeof m)
+
+//prefix and postfix notations
+let Counter=0
+console.log(Counter)
+console.log(++Counter)
+console.log(Counter++)
