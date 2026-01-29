@@ -13,5 +13,7 @@ console.log(greeting.trimEnd())
 console.log(greeting.replace("beautiful","amazing"))
 console.log(greeting.includes("rayys"))
 
+let num=1234.8674
+console.log(num.toPrecision(4))
 
 
