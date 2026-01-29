@@ -1,30 +1,17 @@
 let nme="rishi"
-let valueInVariable=Number(nme)
-console.log(valueInVariable)    //NaN (not a number) this is one of the reasons why js sucks according to me yeahh
-console.log(typeof valueInVariable) //this converted a string into a number which was not originally a number (which is logically wrong)
+let greeting="hello beautiful rayys!                                            "
 
-//"rishi"=> NaN
-//similarly "33abc" ==> NaN (Not a number)
+//string intrapolation
 
-let LoggedIn=1
-console.log(typeof (Boolean(LoggedIn))) //Boolean(True)
+console.log(`hi! this is ${nme} and learning js?!`)
+console.log(greeting.charAt(2)) //prints ch at given number
+console.log(greeting.indexOf("b"))  //print index of given ch
 
-let isLoggedIn= ""
-console.log(Boolean(isLoggedIn))    //False (empty string==> false)
+console.log(greeting.substring(1,5))
+console.log(greeting.trimEnd())
 
-let isLog="abc"
-console.log(Boolean(isLog)) //True (non empty string)
+console.log(greeting.replace("beautiful","amazing"))
+console.log(greeting.includes("rayys"))
 
-let k="1"+2+2
-console.log(k)
-console.log(typeof k)
 
-let m=2+1+"2"
-console.log(m)
-console.log(typeof m)
 
-//prefix and postfix notations
-let Counter=0
-console.log(Counter)
-console.log(++Counter)
-console.log(Counter++)
